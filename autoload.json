@@ -1,6 +1,6 @@
 {
     "bundles" : {
-        "AlphaLemon\\Block\\CKEditorBlockBundle\\CKEditorBlockBundle" : {
+        "RedKiteCms\\Block\\CKEditorBlockBundle\\CKEditorBlockBundle" : {
             "environments" : ["all"]
         }
     }

@@ -1,7 +1,7 @@
 CKEditorBlockBundle
 -------------------
 
-Adds the CKEditor web editor to AlphaLemon CMS to manage hypertext contents.
+Adds the CKEditor web editor to RedKiteCms CMS to manage hypertext contents.
 
 [![Build Status](https://secure.travis-ci.org/alphalemon/CKEditorBlockBundle.png)](http://travis-ci.org/alphalemon/CKEditorBlockBundle)
 

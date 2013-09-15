@@ -4,25 +4,25 @@
  * under the MIT LICENSE. To use this application you must leave intact this copyright 
  * notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  * 
  * @license    MIT LICENSE
  * 
  */
 
-namespace AlphaLemon\Block\CKEditorBlockBundle\Core\Block;
+namespace RedKiteCms\Block\CKEditorBlockBundle\Core\Block;
 
-use AlphaLemon\AlphaLemonCmsBundle\Core\Content\Block\InlineTextBlock\AlBlockManagerInlineTextBlock;
+use RedKiteLabs\RedKiteCmsBundle\Core\Content\Block\InlineTextBlock\AlBlockManagerInlineTextBlock;
 
 /**
  * Defines the Block Manager to handle a Content managed by CKEditor 
  *
- * @author AlphaLemon <webmaster@alphalemon.com>
+ * @author RedKite Labs <info@redkite-labs.com>
  */
 class AlBlockManagerCKEditorBlock extends AlBlockManagerInlineTextBlock
 {    

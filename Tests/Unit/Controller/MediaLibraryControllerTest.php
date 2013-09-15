@@ -1,24 +1,24 @@
 <?php
 /**
- * This file is part of the AlphaLemon CMS Application and it is distributed
+ * This file is part of the RedKiteCms CMS Application and it is distributed
  * under the GPL LICENSE Version 2.0. To use this application you must leave
  * intact this copyright notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  *
  * @license    GPL LICENSE Version 2.0
  *
  */
  
-namespace AlphaLemon\Block\CKEditorBlockBundle\Tests\Controller;
+namespace RedKiteCms\Block\CKEditorBlockBundle\Tests\Controller;
 
-use AlphaLemon\AlphaLemonCmsBundle\Tests\TestCase;
-use AlphaLemon\Block\CKEditorBlockBundle\Controller\MediaLibraryController;
+use RedKiteLabs\RedKiteCmsBundle\Tests\TestCase;
+use RedKiteCms\Block\CKEditorBlockBundle\Controller\MediaLibraryController;
 
 /**
  * MediaLibraryControllerTest

@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\CKEditorBlockBundle\DependencyInjection;
+namespace RedKiteCms\Block\CKEditorBlockBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

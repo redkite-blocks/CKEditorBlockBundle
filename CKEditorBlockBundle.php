@@ -1,6 +1,6 @@
 <?php
 
-namespace AlphaLemon\Block\CKEditorBlockBundle;
+namespace RedKiteCms\Block\CKEditorBlockBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

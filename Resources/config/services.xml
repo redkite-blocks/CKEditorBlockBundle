@@ -6,7 +6,7 @@
 
     <!--
     <parameters>
-        <parameter key="ck_editor_block.example.class">AlphaLemon\Block\CKEditorBlockBundle\Example</parameter>
+        <parameter key="ck_editor_block.example.class">RedKiteCms\Block\CKEditorBlockBundle\Example</parameter>
     </parameters>
 
     <services>

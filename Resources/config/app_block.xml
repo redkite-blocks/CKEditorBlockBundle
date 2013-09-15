@@ -8,14 +8,14 @@
             <parameter>@CKEditorBlockBundle/Resources/public/js/al_ckeditor.js</parameter>
         </parameter>
 
-        <parameter key="ck_editor_block.block.class">AlphaLemon\Block\CKEditorBlockBundle\Core\Block\AlBlockManagerCKEditorBlock</parameter>
-        <parameter key="ck_editor_block.listener.class">AlphaLemon\Block\CKEditorBlockBundle\Core\Listener\ResponseListener</parameter>
+        <parameter key="ck_editor_block.block.class">RedKiteCms\Block\CKEditorBlockBundle\Core\Block\AlBlockManagerCKEditorBlock</parameter>
+        <parameter key="ck_editor_block.listener.class">RedKiteCms\Block\CKEditorBlockBundle\Core\Listener\ResponseListener</parameter>
     </parameters>
 
     <services>
         <service id="ck_editor_block.block" class="%ck_editor_block.block.class%">
-            <tag name="alphalemon_cms.blocks_factory.block" description="Hypertext (CKEditor)" type="Text" group="alphalemon_internals" />
-            <argument type="service" id="alpha_lemon_cms.events_handler" />
+            <tag name="red_kite_cms.blocks_factory.block" description="Hypertext (CKEditor)" type="Text" group="alphalemon_internals" />
+            <argument type="service" id="red_kite_cms.events_handler" />
         </service>
         
         <service id="ck_editor_block.listener" class="%ck_editor_block.listener.class%">

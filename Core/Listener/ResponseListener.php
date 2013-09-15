@@ -4,18 +4,18 @@
  * under the MIT LICENSE. To use this application you must leave intact this copyright 
  * notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  * 
  * @license    MIT LICENSE
  * 
  */
 
-namespace AlphaLemon\Block\CKEditorBlockBundle\Core\Listener;
+namespace RedKiteCms\Block\CKEditorBlockBundle\Core\Listener;
 
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 use Symfony\Component\Templating\EngineInterface;
@@ -23,7 +23,7 @@ use Symfony\Component\Templating\EngineInterface;
 /**
  * Adds CKEditor script to page, just before the </body> tag
  *
- * @author AlphaLemon <info@alphalemon.com>
+ * @author RedKiteCms <info@alphalemon.com>
  */
 class ResponseListener
 {

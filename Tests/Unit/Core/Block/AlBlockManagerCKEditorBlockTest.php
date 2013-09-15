@@ -4,33 +4,33 @@
  * under the MIT LICENSE. To use this application you must leave intact this copyright 
  * notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  * 
  * @license    MIT LICENSE
  * 
  */
 
-namespace AlphaLemon\Block\CKEditorBlockBundle\Tests\Core;
+namespace RedKiteCms\Block\CKEditorBlockBundle\Tests\Core;
 
-use AlphaLemon\Block\CKEditorBlockBundle\Core\Block\AlBlockManagerCKEditorBlock;
-use AlphaLemon\AlphaLemonCmsBundle\Tests\TestCase;
+use RedKiteCms\Block\CKEditorBlockBundle\Core\Block\AlBlockManagerCKEditorBlock;
+use RedKiteLabs\RedKiteCmsBundle\Tests\TestCase;
 
 /**
  * AlBlockManagerCKEditorBlockTest
  *
- * @author AlphaLemon <webmaster@alphalemon.com>
+ * @author RedKite Labs <info@redkite-labs.com>
  */
 class AlBlockManagerCKEditorBlockTest extends TestCase
 {    
 
     protected function setUp()
     {
-        $eventsHandler = $this->getMock('AlphaLemon\AlphaLemonCmsBundle\Core\EventsHandler\AlEventsHandlerInterface');
+        $eventsHandler = $this->getMock('RedKiteLabs\RedKiteCmsBundle\Core\EventsHandler\AlEventsHandlerInterface');
         
         $this->blockManager = new AlBlockManagerCKEditorBlock($eventsHandler);
     }
@@ -69,7 +69,7 @@ class AlBlockManagerCKEditorBlockTest extends TestCase
     
     protected function initBlock($blockId, $content)
     {
-        $block = $this->getMock('AlphaLemon\AlphaLemonCmsBundle\Model\AlBlock');
+        $block = $this->getMock('RedKiteLabs\RedKiteCmsBundle\Model\AlBlock');
         $block->expects($this->once())
               ->method('getId')
               ->will($this->returnValue($blockId));

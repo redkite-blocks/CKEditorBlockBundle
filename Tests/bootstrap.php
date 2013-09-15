@@ -1,16 +1,16 @@
 <?php
 
 /*
- * This file is part of the AlphaLemon CMS Application and it is distributed
+ * This file is part of the RedKiteCms CMS Application and it is distributed
  * under the GPL LICENSE Version 2.0. To use this application you must leave
  * intact this copyright notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  *
  * @license    GPL LICENSE Version 2.0
  *
@@ -35,8 +35,8 @@ if (0 === strncasecmp(PHP_SAPI, 'cli', 3)) {
     set_include_path(__DIR__ . '/../vendor/phing/phing/classes'.PATH_SEPARATOR.get_include_path());
 }
 
-$alphaLemonCmsFolder = __DIR__ . '/../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle';
-require_once $alphaLemonCmsFolder . '/Tests/Tools/AlphaLemonPropelQuickBuilder.php';
+$alphaLemonCmsFolder = __DIR__ . '/../vendor/alphalemon/alphalemon-cms-bundle/RedKiteCms/RedKiteCmsBundle';
+require_once $alphaLemonCmsFolder . '/Tests/Tools/RedKiteCmsPropelQuickBuilder.php';
 if (class_exists('TypehintableBehavior')) {
     
     $config = array("datasources" => array (
@@ -56,7 +56,7 @@ if (class_exists('TypehintableBehavior')) {
     \Propel::initialize();
     
     $class = new \ReflectionClass('TypehintableBehavior');
-    $builder = new \AlphaLemonPropelQuickBuilder();
+    $builder = new \RedKiteCmsPropelQuickBuilder();
     $builder->getConfig()->setBuildProperty('behavior.typehintable.class', $class->getFileName());
     $builder->setSchema(file_get_contents($alphaLemonCmsFolder . '/Resources/config/schema.xml'));
     $builder->buildClasses();

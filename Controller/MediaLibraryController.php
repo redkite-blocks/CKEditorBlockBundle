@@ -4,25 +4,25 @@
  * under the MIT LICENSE. To use this application you must leave intact this copyright 
  * notice.
  *
- * Copyright (c) AlphaLemon <webmaster@alphalemon.com>
+ * Copyright (c) RedKite Labs <info@redkite-labs.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * For extra documentation and help please visit http://www.alphalemon.com
+ * For extra documentation and help please visit http://www.redkite-labs.com
  * 
  * @license    MIT LICENSE
  * 
  */
-namespace AlphaLemon\Block\CKEditorBlockBundle\Controller;
+namespace RedKiteCms\Block\CKEditorBlockBundle\Controller;
 
-use AlphaLemon\AlphaLemonCmsBundle\Controller\AlCmsController;
-use AlphaLemon\AlphaLemonCmsBundle\Core\AssetsPath\AlAssetsPath;
+use RedKiteLabs\RedKiteCmsBundle\Controller\AlCmsController;
+use RedKiteLabs\RedKiteCmsBundle\Core\AssetsPath\AlAssetsPath;
 
 /**
  * Connects ElFinder with CKEditor
  *
- * @author AlphaLemon <webmaster@alphalemon.com>
+ * @author RedKite Labs <info@redkite-labs.com>
  */
 class MediaLibraryController extends AlCmsController
 {
