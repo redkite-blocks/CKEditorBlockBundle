@@ -34,7 +34,7 @@ class MediaLibraryController extends AlCmsController
         $request = $this->container->get('request');
         
         return $this->container->get('templating')->renderResponse('CKEditorBlockBundle:Elfinder:media_library.html.twig', array(
-            'enable_yui_compressor' => $this->container->getParameter('alpha_lemon_cms.enable_yui_compressor'),
+            'enable_yui_compressor' => $this->container->getParameter('red_kite_cms.enable_yui_compressor'),
             'assets_folder' => AlAssetsPath::getUploadFolder($this->container),
             'frontController' => $this->getFrontcontroller($request),
         ));

@@ -3,9 +3,11 @@ CKEDITOR.plugins.add( 'ajaxsave', {
         editor.addCommand( 'save', {
             exec: function( editor ) {    
                 $('body').EditBlock('Content', editor.getData(), null, function(activeBlock){ 
-                    editor.destroy(true); 
-                    
-                    createCKEditor(activeBlock.attr('id'));
+                    if (activeBlock != null) {
+                        editor.destroy(true); 
+
+                        createCKEditor(activeBlock.attr('id'));
+                    }
                 });
             }
         });
